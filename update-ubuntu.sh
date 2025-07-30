@@ -32,8 +32,8 @@ print_error() {
 }
 
 # Check if running as root
-if [ "$EUID" -eq 0 ]; then
-    print_error "Please do not run this script as root. Use a regular user with sudo privileges."
+if [ "$EUID" -ne 0 ]; then
+    print_error "This script must be run as root. Please run with sudo or as root user."
     exit 1
 fi
 
@@ -54,35 +54,35 @@ fi
 
 # Update system packages
 print_status "Updating system packages..."
-sudo apt update
-sudo apt upgrade -y
+apt update
+apt upgrade -y
 
 # Update Docker
 print_status "Updating Docker..."
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Update Docker Compose
 print_status "Updating Docker Compose..."
-sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-sudo ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
+curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 # Update Node.js
 print_status "Updating Node.js..."
 if command -v node &> /dev/null; then
     # Add NodeSource repository for latest version
-    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-    sudo apt install -y nodejs
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+    apt install -y nodejs
 else
     print_warning "Node.js not found, installing..."
-    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-    sudo apt install -y nodejs
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+    apt install -y nodejs
 fi
 
 # Update Python packages
 print_status "Updating Python packages..."
-pip3 install --user --upgrade pip
-pip3 install --user --upgrade cryptography
+pip3 install --upgrade pip
+pip3 install --upgrade cryptography
 
 # Clean up Docker
 print_status "Cleaning up Docker..."

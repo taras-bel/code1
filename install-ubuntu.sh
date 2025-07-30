@@ -32,25 +32,19 @@ print_error() {
 }
 
 # Check if running as root
-if [ "$EUID" -eq 0 ]; then
-    print_error "Please do not run this script as root. Use a regular user with sudo privileges."
-    exit 1
-fi
-
-# Check if sudo is available
-if ! command -v sudo &> /dev/null; then
-    print_error "sudo is not installed. Please install sudo first."
+if [ "$EUID" -ne 0 ]; then
+    print_error "This script must be run as root. Please run with sudo or as root user."
     exit 1
 fi
 
 # Update system packages
 print_status "Updating system packages..."
-sudo apt update
-sudo apt upgrade -y
+apt update
+apt upgrade -y
 
 # Install essential packages
 print_status "Installing essential packages..."
-sudo apt install -y \
+apt install -y \
     curl \
     wget \
     git \
@@ -75,23 +69,23 @@ print_success "Essential packages installed"
 print_status "Installing Docker..."
 if ! command -v docker &> /dev/null; then
     # Remove old versions
-    sudo apt remove -y docker docker-engine docker.io containerd runc 2>/dev/null || true
+    apt remove -y docker docker-engine docker.io containerd runc 2>/dev/null || true
     
     # Add Docker's official GPG key
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
     
     # Add Docker repository
-    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | tee /etc/apt/sources.list.d/docker.list > /dev/null
     
     # Install Docker
-    sudo apt update
-    sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    apt update
+    apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
     
-    # Add user to docker group
-    sudo usermod -aG docker $USER
+    # Start and enable Docker service
+    systemctl start docker
+    systemctl enable docker
     
     print_success "Docker installed successfully"
-    print_warning "You need to log out and log back in for Docker group changes to take effect"
 else
     print_success "Docker is already installed"
 fi
@@ -100,13 +94,13 @@ fi
 print_status "Installing Docker Compose..."
 if ! command -v docker-compose &> /dev/null; then
     # Download Docker Compose
-    sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     
     # Make it executable
-    sudo chmod +x /usr/local/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose
     
     # Create symlink
-    sudo ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
+    ln -sf /usr/local/bin/docker-compose /usr/bin/docker-compose
     
     print_success "Docker Compose installed successfully"
 else
@@ -117,10 +111,10 @@ fi
 print_status "Installing Node.js and npm..."
 if ! command -v node &> /dev/null; then
     # Add NodeSource repository
-    curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
     
     # Install Node.js
-    sudo apt install -y nodejs
+    apt install -y nodejs
     
     print_success "Node.js and npm installed successfully"
 else
@@ -129,8 +123,8 @@ fi
 
 # Install Python dependencies
 print_status "Installing Python dependencies..."
-pip3 install --user --upgrade pip
-pip3 install --user cryptography
+pip3 install --upgrade pip
+pip3 install cryptography
 
 print_success "Python dependencies installed"
 
@@ -149,11 +143,11 @@ print_success "Project structure created"
 # Install UFW firewall (optional but recommended)
 print_status "Setting up firewall..."
 if ! command -v ufw &> /dev/null; then
-    sudo apt install -y ufw
-    sudo ufw --force enable
-    sudo ufw allow ssh
-    sudo ufw allow 80/tcp
-    sudo ufw allow 443/tcp
+    apt install -y ufw
+    ufw --force enable
+    ufw allow ssh
+    ufw allow 80/tcp
+    ufw allow 443/tcp
     print_success "Firewall configured"
 else
     print_success "Firewall is already installed"
@@ -161,7 +155,7 @@ fi
 
 # Install monitoring tools (optional)
 print_status "Installing monitoring tools..."
-sudo apt install -y htop iotop nethogs
+apt install -y htop iotop nethogs
 
 print_success "Monitoring tools installed"
 
@@ -178,10 +172,9 @@ echo "   ✅ Firewall (UFW)"
 echo "   ✅ Monitoring tools"
 echo ""
 echo "🔧 Next steps:"
-echo "   1. Log out and log back in (for Docker group changes)"
-echo "   2. Copy your .env file: cp .env.example .env"
-echo "   3. Edit .env with your configuration"
-echo "   4. Start the application: ./start-https.sh"
+echo "   1. Copy your .env file: cp .env.example .env"
+echo "   2. Edit .env with your configuration"
+echo "   3. Start the application: ./start-https.sh"
 echo ""
 echo "📚 Useful commands:"
 echo "   Start:     ./start-https.sh"
@@ -195,5 +188,4 @@ echo "   Local:     https://localhost"
 echo "   Network:   https://$(hostname -I | awk '{print $1}')"
 echo ""
 
-print_success "NoaMetrics installation completed!"
-print_warning "Please log out and log back in for Docker group changes to take effect" 
+print_success "NoaMetrics installation completed!" 

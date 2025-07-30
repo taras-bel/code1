@@ -14,8 +14,30 @@ const config = {
 // Get current environment
 const env = process.env.NODE_ENV || 'development'
 
-// Export current config
-export const apiConfig = config[env]
+// Dynamic API URL detection
+function getDynamicApiUrl() {
+  // If we're in the browser, use the current origin
+  if (typeof window !== 'undefined') {
+    const currentOrigin = window.location.origin
+    // If accessing via HTTPS, use HTTPS for API
+    if (currentOrigin.startsWith('https://')) {
+      return currentOrigin
+    }
+    // If accessing via HTTP, use HTTP for API (for development)
+    if (currentOrigin.startsWith('http://')) {
+      return currentOrigin
+    }
+  }
+  
+  // Fallback to config
+  return config[env].apiBaseUrl
+}
+
+// Export current config with dynamic URL
+export const apiConfig = {
+  ...config[env],
+  apiBaseUrl: getDynamicApiUrl()
+}
 
 // Helper function to get full API URL
 export function getApiUrl(endpoint) {

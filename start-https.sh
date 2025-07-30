@@ -61,7 +61,21 @@ if [ ! -f "ssl/cert.pem" ] || [ ! -f "ssl/key.pem" ]; then
     # Check if Python is available
     if command -v python3 &> /dev/null; then
         print_status "Using Python to generate SSL certificates..."
-        python3 create-test-certs.py
+        
+        # Try to use virtual environment if it exists
+        if [ -f "venv/bin/python" ]; then
+            print_status "Using Python virtual environment..."
+            venv/bin/python create-test-certs.py
+        else
+            # Try system Python with fallback
+            if python3 create-test-certs.py; then
+                print_success "SSL certificates generated with system Python"
+            else
+                print_warning "Failed with system Python, trying with --break-system-packages..."
+                pip3 install cryptography --break-system-packages
+                python3 create-test-certs.py
+            fi
+        fi
     elif command -v python &> /dev/null; then
         print_status "Using Python to generate SSL certificates..."
         python create-test-certs.py

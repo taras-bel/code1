@@ -81,8 +81,22 @@ fi
 
 # Update Python packages
 print_status "Updating Python packages..."
-pip3 install --upgrade pip
-pip3 install --upgrade cryptography
+# Update system cryptography package
+apt install -y python3-cryptography
+
+# Update virtual environment if it exists
+if [ -d "venv" ]; then
+    print_status "Updating Python virtual environment..."
+    source venv/bin/activate
+    pip install --upgrade pip
+    pip install --upgrade cryptography
+else
+    print_warning "Virtual environment not found, creating new one..."
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install --upgrade pip
+    pip install cryptography
+fi
 
 # Clean up Docker
 print_status "Cleaning up Docker..."

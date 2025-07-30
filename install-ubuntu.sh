@@ -123,8 +123,20 @@ fi
 
 # Install Python dependencies
 print_status "Installing Python dependencies..."
-pip3 install --upgrade pip
-pip3 install cryptography
+# Install cryptography through apt (system package)
+apt install -y python3-cryptography
+
+# Create virtual environment for additional packages if needed
+if [ ! -d "venv" ]; then
+    print_status "Creating Python virtual environment..."
+    python3 -m venv venv
+fi
+
+# Activate virtual environment and install additional packages
+print_status "Installing additional Python packages in virtual environment..."
+source venv/bin/activate
+pip install --upgrade pip
+pip install cryptography  # Install in venv as backup
 
 print_success "Python dependencies installed"
 

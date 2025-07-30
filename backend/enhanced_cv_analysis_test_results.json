@@ -1,0 +1,1055 @@
+{
+  "detailed_analysis": {
+    "experience_summary": {
+      "summary": "Experienced DevOps engineer with 8+ years of experience in cloud infrastructure, CI/CD pipelines, and automation. Proven track record of improving system reliability and reducing deployment times by 70%.",
+      "years_of_experience": "8+ years",
+      "key_roles": [
+        "Senior DevOps Engineer",
+        "DevOps Engineer"
+      ],
+      "full_name": "John Doe",
+      "payment_expectations": "Not specified",
+      "achievements": "Improved system reliability, reduced deployment times by 70%, reduced infrastructure costs by 40%, reduced server provisioning time from 4 hours to 30 minutes.",
+      "skills_1_plus_years": "AWS, Azure, GCP, Docker, Kubernetes, Helm, Jenkins, GitLab CI, GitHub Actions, Terraform, Ansible, Prometheus, Grafana, ELK Stack, Python, Bash, Go",
+      "job_titles": "Senior DevOps Engineer, DevOps Engineer",
+      "technologies": "AWS, Azure, GCP, Docker, Kubernetes, Helm, Jenkins, GitLab CI, GitHub Actions, Terraform, Ansible, Prometheus, Grafana, ELK Stack, Python, Bash, Go",
+      "experience_years": "8+ years",
+      "responsibilities": "Led migration to Kubernetes, implemented CI/CD pipelines, managed AWS infrastructure, automated monitoring, built Docker strategy, implemented Terraform, reduced server provisioning time.",
+      "total_years_of_experience": "8+ years",
+      "primary_contact_email": "Not specified",
+      "primary_contact_phone": "Not specified",
+      "linkedin_profile_url": "Not specified",
+      "current_location": "Not specified",
+      "citizenship_work_permit": "Not specified",
+      "relocation_preference": "Not specified",
+      "remote_work_preference": "Not specified",
+      "professional_summary": "Experienced DevOps engineer with 8+ years of experience in cloud infrastructure, CI/CD pipelines, and automation. Proven track record of improving system reliability and reducing deployment times by 70%.",
+      "cloud_platforms": "AWS, Azure, GCP",
+      "containerization_orchestration": "Docker, Kubernetes, Helm",
+      "infrastructure_as_code": "Terraform, Ansible",
+      "cicd_tools_pipelines": "Jenkins, GitLab CI, GitHub Actions",
+      "monitoring_logging": "Prometheus, Grafana, ELK Stack",
+      "scripting_programming": "Python, Bash, Go",
+      "databases": "Not specified",
+      "version_control": "Not specified",
+      "networking": "Not specified",
+      "operating_systems": "Not specified",
+      "security_tools": "Not specified",
+      "agile_collaboration": "Not specified",
+      "other_technologies": "Not specified",
+      "devops_cloud_experience_years": "8+ years",
+      "recent_company_1": "TechCorp",
+      "recent_dates_1": "2020-2024",
+      "recent_responsibilities_1": "Led migration to Kubernetes, implemented CI/CD pipelines, managed AWS infrastructure, automated monitoring.",
+      "recent_technologies_1": "AWS, Kubernetes, GitLab CI, Prometheus, Grafana",
+      "recent_job_title_2": "DevOps Engineer",
+      "recent_company_2": "StartupXYZ",
+      "recent_dates_2": "2018-2020",
+      "recent_responsibilities_2": "Built Docker strategy, implemented Terraform, reduced server provisioning time.",
+      "recent_technologies_2": "Docker, Terraform",
+      "certifications": "AWS Solutions Architect Professional, Kubernetes Administrator (CKA), Terraform Associate",
+      "education_degree": "Bachelor of Science",
+      "education_major": "Computer Science",
+      "education_university": "University of Technology",
+      "education_year": "2018",
+      "languages": "Not specified",
+      "desired_role": "Senior DevOps Engineer"
+    },
+    "achievers_rating": {
+      "achievements": {
+        "score": 4,
+        "achievements_list": [
+          "Reduced deployment times by 70%",
+          "Reduced infrastructure costs by 40%",
+          "Reduced server provisioning time from 4 hours to 30 minutes",
+          "Managed AWS infrastructure serving 1M+ users with 99.9% uptime"
+        ]
+      },
+      "skills": {
+        "score": 8,
+        "skills_list": [
+          "AWS",
+          "Azure",
+          "GCP",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "GitLab CI",
+          "Python"
+        ]
+      },
+      "responsibilities": {
+        "new_jobs_score": 1,
+        "new_jobs_list": [
+          "Promoted from DevOps Engineer to Senior DevOps Engineer"
+        ],
+        "within_job_score": 3,
+        "within_job_list": [
+          "Led migration to Kubernetes",
+          "Implemented CI/CD pipelines",
+          "Automated monitoring and alerting"
+        ],
+        "total_score": 4
+      },
+      "experience_bonus": {
+        "score": 2,
+        "years_counted": 6
+      },
+      "skills_bonus": {
+        "score": 1,
+        "skills_counted": 8
+      },
+      "overall_score": 19
+    },
+    "requirements_analysis": {
+      "requirements_met": 0.9,
+      "matched_requirements": [
+        {
+          "requirement": "5+ years of experience in DevOps or related field",
+          "match_level": "High",
+          "evidence": "8+ years of experience"
+        },
+        {
+          "requirement": "Strong knowledge of cloud platforms (AWS, Azure, GCP)",
+          "match_level": "High",
+          "evidence": "AWS, Azure, GCP listed in skills"
+        },
+        {
+          "requirement": "Experience with containerization (Docker, Kubernetes)",
+          "match_level": "High",
+          "evidence": "Docker, Kubernetes listed in skills and experience"
+        },
+        {
+          "requirement": "Proficiency in CI/CD tools and practices",
+          "match_level": "High",
+          "evidence": "GitLab CI/CD pipelines implemented, Jenkins, GitHub Actions listed in skills"
+        },
+        {
+          "requirement": "Knowledge of infrastructure as code (Terraform, Ansible)",
+          "match_level": "High",
+          "evidence": "Terraform, Ansible listed in skills and experience"
+        },
+        {
+          "requirement": "Experience with monitoring and logging tools",
+          "match_level": "High",
+          "evidence": "Prometheus, Grafana, ELK Stack listed in skills and experience"
+        },
+        {
+          "requirement": "Programming skills in Python, Bash, or similar",
+          "match_level": "High",
+          "evidence": "Python, Bash, Go listed in skills"
+        },
+        {
+          "requirement": "Bachelor's degree in Computer Science or related field",
+          "match_level": "High",
+          "evidence": "Bachelor of Science in Computer Science"
+        }
+      ],
+      "missing_requirements": [
+        {
+          "requirement": "Not explicitly mentioned in the CV",
+          "importance": "Low"
+        }
+      ]
+    },
+    "overall_assessment": {
+      "match_score": 0.9,
+      "strengths": [
+        "Extensive experience in cloud platforms and containerization",
+        "Proven track record of improving system performance and reducing costs",
+        "Strong CI/CD and infrastructure as code expertise",
+        "Relevant certifications (AWS, Kubernetes, Terraform)"
+      ],
+      "weaknesses": [
+        "No explicit mention of networking or security tools",
+        "No mention of agile methodologies or collaboration tools"
+      ]
+    },
+    "recommendations": [
+      {
+        "area": "Networking and Security",
+        "suggestion": "Highlight any experience with networking or security tools in the CV"
+      },
+      {
+        "area": "Agile and Collaboration",
+        "suggestion": "Add any experience with agile methodologies or collaboration tools"
+      }
+    ]
+  },
+  "simple_analysis": {
+    "full_name": "Alex Brown",
+    "summary": "DevOps engineer with 3 years of experience in AWS, Docker, and CI/CD.",
+    "years_of_experience": 3,
+    "key_skills": [
+      "AWS",
+      "Docker",
+      "Jenkins",
+      "CI/CD",
+      "Python",
+      "Bash"
+    ],
+    "technologies": [
+      "AWS",
+      "Docker",
+      "Jenkins",
+      "Python",
+      "Bash"
+    ],
+    "education": "Bachelor of Science in IT | State University | 2021",
+    "certifications": [],
+    "overall_score": 65,
+    "skills_score": 70,
+    "experience_score": 60,
+    "education_score": 50,
+    "match_score": 65,
+    "strengths": [
+      "Hands-on experience with AWS, Docker, and Jenkins",
+      "Basic scripting skills in Python and Bash"
+    ],
+    "weaknesses": [
+      "Lack of certifications",
+      "Limited experience (only 3 years)",
+      "No mention of cloud architecture or advanced DevOps practices"
+    ],
+    "recommendations": [
+      "Obtain relevant AWS or DevOps certifications",
+      "Expand experience with cloud architecture and advanced CI/CD practices",
+      "Include more details about specific projects and achievements"
+    ],
+    "availability": "Not specified",
+    "score_breakdown": {
+      "skills_quality": 70,
+      "experience_depth": 60,
+      "education_quality": 50,
+      "overall_impression": 65
+    }
+  },
+  "comparison_results": {
+    "comparison_matrix": {
+      "comparison_summary": {
+        "total_candidates": 3,
+        "analysis_date": "2023-11-15",
+        "comparison_focus": "Skills and Education Differences"
+      },
+      "candidates": [
+        {
+          "name": "Jane Smith",
+          "achiever_score": 22,
+          "overall_rating": "High",
+          "key_strengths": [
+            "Extensive experience",
+            "Strong technical leadership",
+            "Excellent problem-solving"
+          ],
+          "unique_advantages": [
+            "Go programming",
+            "Terraform",
+            "Ansible",
+            "Prometheus"
+          ]
+        },
+        {
+          "name": "John Doe",
+          "achiever_score": 18,
+          "overall_rating": "Medium-High",
+          "key_strengths": [
+            "Strong cloud experience",
+            "Excellent automation skills",
+            "Proven leadership"
+          ],
+          "unique_advantages": [
+            "Helm",
+            "ELK Stack",
+            "GitHub Actions"
+          ]
+        },
+        {
+          "name": "Bob Johnson",
+          "achiever_score": 15,
+          "overall_rating": "Medium",
+          "key_strengths": [
+            "Solid AWS experience",
+            "Good automation skills",
+            "Reliable team player"
+          ],
+          "unique_advantages": [
+            "Docker Swarm",
+            "CloudWatch"
+          ]
+        }
+      ],
+      "skills_comparison": {
+        "cloud_platforms": {
+          "candidate_1": {
+            "name": "Jane Smith",
+            "skills": [
+              "AWS",
+              "GCP"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "name": "John Doe",
+            "skills": [
+              "AWS",
+              "Azure",
+              "GCP"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "name": "Bob Johnson",
+            "skills": [
+              "AWS"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [],
+            "unique_to_candidate_2": [
+              "Azure"
+            ],
+            "unique_to_candidate_3": [],
+            "common_skills": [
+              "AWS"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        },
+        "containerization_orchestration": {
+          "candidate_1": {
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "Docker Swarm"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "Helm"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "skills": [
+              "Docker"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [
+              "Docker Swarm"
+            ],
+            "unique_to_candidate_2": [
+              "Helm"
+            ],
+            "unique_to_candidate_3": [],
+            "common_skills": [
+              "Docker"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        },
+        "infrastructure_as_code": {
+          "candidate_1": {
+            "skills": [
+              "Terraform",
+              "CloudFormation"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "skills": [
+              "Terraform",
+              "Ansible"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "skills": [
+              "Terraform"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [
+              "CloudFormation"
+            ],
+            "unique_to_candidate_2": [
+              "Ansible"
+            ],
+            "unique_to_candidate_3": [],
+            "common_skills": [
+              "Terraform"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        },
+        "cicd_tools": {
+          "candidate_1": {
+            "skills": [
+              "Jenkins",
+              "GitLab CI"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "skills": [
+              "Jenkins",
+              "GitLab CI",
+              "GitHub Actions"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "skills": [
+              "Jenkins"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [],
+            "unique_to_candidate_2": [
+              "GitHub Actions"
+            ],
+            "unique_to_candidate_3": [],
+            "common_skills": [
+              "Jenkins"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        },
+        "monitoring_logging": {
+          "candidate_1": {
+            "skills": [
+              "Prometheus",
+              "Grafana",
+              "Datadog"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "skills": [
+              "Prometheus",
+              "Grafana",
+              "ELK Stack"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "skills": [
+              "CloudWatch"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [
+              "Datadog"
+            ],
+            "unique_to_candidate_2": [
+              "ELK Stack"
+            ],
+            "unique_to_candidate_3": [
+              "CloudWatch"
+            ],
+            "common_skills": [
+              "Prometheus"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        },
+        "scripting_programming": {
+          "candidate_1": {
+            "skills": [
+              "Python",
+              "Go",
+              "Bash"
+            ],
+            "experience_years": 10,
+            "strength_level": "High"
+          },
+          "candidate_2": {
+            "skills": [
+              "Python",
+              "Bash"
+            ],
+            "experience_years": 8,
+            "strength_level": "High"
+          },
+          "candidate_3": {
+            "skills": [
+              "Python",
+              "Bash"
+            ],
+            "experience_years": 5,
+            "strength_level": "Medium"
+          },
+          "differences": {
+            "unique_to_candidate_1": [
+              "Go"
+            ],
+            "unique_to_candidate_2": [],
+            "unique_to_candidate_3": [],
+            "common_skills": [
+              "Python",
+              "Bash"
+            ],
+            "experience_gap": "5 years between highest and lowest"
+          }
+        }
+      },
+      "education_comparison": {
+        "degrees": {
+          "candidate_1": {
+            "degree": "Bachelor's in Computer Science",
+            "university": "Not specified",
+            "graduation_year": "Not specified",
+            "relevance_score": 85
+          },
+          "candidate_2": {
+            "degree": "Master's in Information Technology",
+            "university": "Not specified",
+            "graduation_year": "Not specified",
+            "relevance_score": 80
+          },
+          "candidate_3": {
+            "degree": "Bachelor's in Engineering",
+            "university": "Not specified",
+            "graduation_year": "Not specified",
+            "relevance_score": 75
+          },
+          "differences": {
+            "highest_degree": "Master's (John Doe)",
+            "most_relevant_degree": "Computer Science (Jane Smith)",
+            "education_gap": "Not specified"
+          }
+        },
+        "certifications": {
+          "candidate_1": {
+            "certifications": [
+              "AWS Solutions Architect",
+              "Kubernetes Administrator"
+            ],
+            "count": 2,
+            "relevance_score": 95
+          },
+          "candidate_2": {
+            "certifications": [
+              "AWS Developer"
+            ],
+            "count": 1,
+            "relevance_score": 80
+          },
+          "candidate_3": {
+            "certifications": [
+              "AWS Certified Solutions Architect",
+              "Docker Certified"
+            ],
+            "count": 2,
+            "relevance_score": 85
+          },
+          "differences": {
+            "most_certifications": "Jane Smith and Bob Johnson (2 each)",
+            "highest_relevance": "Jane Smith (95%)",
+            "unique_certifications": {
+              "candidate_1": [
+                "Kubernetes Administrator"
+              ],
+              "candidate_2": [
+                "AWS Developer"
+              ],
+              "candidate_3": [
+                "Docker Certified"
+              ]
+            }
+          }
+        }
+      },
+      "overall_differences": {
+        "strengths_by_candidate": {
+          "candidate_1": {
+            "name": "Jane Smith",
+            "primary_strengths": [
+              "Most comprehensive cloud experience",
+              "Strongest technical skills",
+              "Most achievements"
+            ],
+            "unique_advantages": [
+              "Go programming",
+              "Terraform",
+              "Ansible",
+              "Prometheus"
+            ],
+            "overall_score": 92
+          },
+          "candidate_2": {
+            "name": "John Doe",
+            "primary_strengths": [
+              "Strong cloud experience",
+              "Excellent automation skills",
+              "Proven leadership"
+            ],
+            "unique_advantages": [
+              "Helm",
+              "ELK Stack",
+              "GitHub Actions"
+            ],
+            "overall_score": 88
+          },
+          "candidate_3": {
+            "name": "Bob Johnson",
+            "primary_strengths": [
+              "Solid AWS experience",
+              "Good automation skills",
+              "Reliable team player"
+            ],
+            "unique_advantages": [
+              "Docker Swarm",
+              "CloudWatch"
+            ],
+            "overall_score": 75
+          }
+        },
+        "key_differentiators": [
+          "Jane Smith has the most comprehensive cloud and monitoring experience",
+          "John Doe has the most diverse tooling experience across different platforms",
+          "Bob Johnson has the most focused AWS experience but lacks in other areas"
+        ],
+        "recommendations": [
+          "For cloud-native roles with leadership requirements: Consider Jane Smith",
+          "For multi-platform environments with automation focus: Consider John Doe",
+          "For AWS-specific roles with cost optimization focus: Consider Bob Johnson"
+        ]
+      },
+      "metadata": {
+        "generated_at": "2025-07-27T05:16:55.286398",
+        "total_candidates_analyzed": 3,
+        "top_candidates_selected": 3,
+        "selection_criteria": "achiever_score"
+      }
+    },
+    "analysis": {
+      "error": "Failed to analyze multiple candidates",
+      "candidates_data": [
+        {
+          "full_name": "John Doe",
+          "overall_score": 88,
+          "skills_score": 90,
+          "experience_score": 85,
+          "education_score": 80,
+          "achievers_rating": {
+            "overall_score": 18,
+            "achievements": {
+              "score": 5,
+              "achievements_list": [
+                "Led migration to Kubernetes",
+                "Reduced deployment time by 70%"
+              ]
+            },
+            "skills": {
+              "score": 8,
+              "skills_list": [
+                "AWS",
+                "Kubernetes",
+                "Docker",
+                "Terraform",
+                "Python",
+                "Bash",
+                "Jenkins",
+                "Prometheus"
+              ]
+            },
+            "responsibilities": {
+              "total_score": 3,
+              "new_jobs_score": 2,
+              "within_job_score": 1
+            },
+            "experience_bonus": {
+              "score": 2,
+              "years_counted": 6
+            },
+            "skills_bonus": {
+              "score": 1,
+              "skills_counted": 8
+            }
+          },
+          "experience_summary": {
+            "full_name": "John Doe",
+            "years_of_experience": "8+ years",
+            "cloud_platforms": "AWS, Azure, GCP",
+            "containerization_orchestration": "Docker, Kubernetes, Helm",
+            "infrastructure_as_code": "Terraform, Ansible",
+            "cicd_tools_pipelines": "Jenkins, GitLab CI, GitHub Actions",
+            "monitoring_logging": "Prometheus, Grafana, ELK Stack",
+            "scripting_programming": "Python, Bash, Go"
+          },
+          "strengths": [
+            "Strong cloud experience",
+            "Excellent automation skills",
+            "Proven leadership"
+          ],
+          "weaknesses": [
+            "Limited Azure experience",
+            "Could improve documentation skills"
+          ]
+        },
+        {
+          "full_name": "Jane Smith",
+          "overall_score": 92,
+          "skills_score": 95,
+          "experience_score": 90,
+          "education_score": 85,
+          "achievers_rating": {
+            "overall_score": 22,
+            "achievements": {
+              "score": 6,
+              "achievements_list": [
+                "Built scalable microservices",
+                "Improved system reliability by 50%",
+                "Led team of 5 engineers"
+              ]
+            },
+            "skills": {
+              "score": 10,
+              "skills_list": [
+                "AWS",
+                "Kubernetes",
+                "Docker",
+                "Terraform",
+                "Ansible",
+                "Python",
+                "Go",
+                "Bash",
+                "Jenkins",
+                "Prometheus"
+              ]
+            },
+            "responsibilities": {
+              "total_score": 4,
+              "new_jobs_score": 3,
+              "within_job_score": 1
+            },
+            "experience_bonus": {
+              "score": 2,
+              "years_counted": 6
+            },
+            "skills_bonus": {
+              "score": 2,
+              "skills_counted": 10
+            }
+          },
+          "experience_summary": {
+            "full_name": "Jane Smith",
+            "years_of_experience": "10+ years",
+            "cloud_platforms": "AWS, GCP",
+            "containerization_orchestration": "Docker, Kubernetes, Docker Swarm",
+            "infrastructure_as_code": "Terraform, CloudFormation",
+            "cicd_tools_pipelines": "Jenkins, GitLab CI",
+            "monitoring_logging": "Prometheus, Grafana, Datadog",
+            "scripting_programming": "Python, Go, JavaScript"
+          },
+          "strengths": [
+            "Extensive experience",
+            "Strong technical leadership",
+            "Excellent problem-solving"
+          ],
+          "weaknesses": [
+            "Could improve Azure knowledge",
+            "Limited experience with some newer tools"
+          ]
+        },
+        {
+          "full_name": "Bob Johnson",
+          "overall_score": 75,
+          "skills_score": 70,
+          "experience_score": 80,
+          "education_score": 75,
+          "achievers_rating": {
+            "overall_score": 15,
+            "achievements": {
+              "score": 3,
+              "achievements_list": [
+                "Implemented CI/CD pipeline",
+                "Reduced server costs by 30%"
+              ]
+            },
+            "skills": {
+              "score": 6,
+              "skills_list": [
+                "AWS",
+                "Docker",
+                "Terraform",
+                "Python",
+                "Bash",
+                "Jenkins"
+              ]
+            },
+            "responsibilities": {
+              "total_score": 2,
+              "new_jobs_score": 1,
+              "within_job_score": 1
+            },
+            "experience_bonus": {
+              "score": 2,
+              "years_counted": 6
+            },
+            "skills_bonus": {
+              "score": 1,
+              "skills_counted": 6
+            }
+          },
+          "experience_summary": {
+            "full_name": "Bob Johnson",
+            "years_of_experience": "5+ years",
+            "cloud_platforms": "AWS",
+            "containerization_orchestration": "Docker",
+            "infrastructure_as_code": "Terraform",
+            "cicd_tools_pipelines": "Jenkins",
+            "monitoring_logging": "CloudWatch",
+            "scripting_programming": "Python, Bash"
+          },
+          "strengths": [
+            "Solid AWS experience",
+            "Good automation skills",
+            "Reliable team player"
+          ],
+          "weaknesses": [
+            "Limited Kubernetes experience",
+            "Could improve monitoring skills",
+            "Less leadership experience"
+          ]
+        }
+      ],
+      "metadata": {
+        "generated_at": "2025-07-27T05:16:58.737354",
+        "total_candidates": 3,
+        "analysis_type": "comprehensive_group_analysis"
+      }
+    },
+    "recommendations": {
+      "candidates": [
+        {
+          "name": "John Doe",
+          "unique_qualities": [
+            "Proven Kubernetes migration leadership",
+            "Significant deployment time optimization (70% reduction)",
+            "Broad cloud platform experience (AWS, Azure, GCP)",
+            "Strong DevOps toolchain expertise (Jenkins, Prometheus, etc.)",
+            "Balanced technical and leadership skills"
+          ],
+          "hiring_recommendation": "Recommend",
+          "best_role_fit": "Senior DevOps Engineer with cloud migration focus",
+          "key_differentiators": [
+            "Demonstrated ability to lead complex infrastructure projects",
+            "Strong automation and orchestration skills",
+            "Proven impact in reducing operational inefficiencies"
+          ]
+        },
+        {
+          "name": "Jane Smith",
+          "unique_qualities": [
+            "Extensive 10+ years of experience",
+            "Strong microservices architecture expertise",
+            "Proven team leadership (managed 5 engineers)",
+            "Broadest technical skill set (10 skills listed)",
+            "Significant system reliability improvements (50% increase)",
+            "Experience with multiple container orchestration tools"
+          ],
+          "hiring_recommendation": "Strongly Recommend",
+          "best_role_fit": "Lead DevOps Engineer or DevOps Architect",
+          "key_differentiators": [
+            "Most comprehensive technical background",
+            "Proven ability to improve system reliability at scale",
+            "Strong leadership and team management experience",
+            "Broadest range of relevant skills"
+          ]
+        },
+        {
+          "name": "Bob Johnson",
+          "unique_qualities": [
+            "Strong AWS specialization",
+            "Proven cost optimization (30% server cost reduction)",
+            "Reliable team player with good automation skills",
+            "Solid foundation in core DevOps practices",
+            "Good CI/CD pipeline implementation experience"
+          ],
+          "hiring_recommendation": "Consider",
+          "best_role_fit": "Mid-level DevOps Engineer with AWS focus",
+          "key_differentiators": [
+            "Strong AWS expertise with cost optimization results",
+            "Reliable contributor with good automation skills",
+            "Good foundational knowledge for growth"
+          ]
+        }
+      ],
+      "comparison_summary": {
+        "top_candidate": "Jane Smith",
+        "reasoning": "Jane Smith stands out as the top candidate due to her extensive experience (10+ years), broadest skill set (10 skills), proven leadership (managed 5 engineers), and significant achievements in system reliability improvements. Her overall score (92) and achievers rating (22) are the highest among the candidates, indicating both technical excellence and leadership potential.",
+        "team_fit_analysis": "Jane would be an excellent leader for a DevOps team, potentially mentoring John and Bob. John's Kubernetes expertise would complement Jane's broader experience, while Bob's AWS specialization could be valuable for cloud-specific projects. Together they could form a well-rounded team covering cloud platforms, container orchestration, and infrastructure automation.",
+        "risk_assessment": {
+          "Jane Smith": "Minimal risks - extensive experience and proven track record. Potential challenge would be integrating her leadership style with existing team dynamics.",
+          "John Doe": "Moderate risk - strong technical skills but limited Azure experience and documentation weaknesses could require additional training or support.",
+          "Bob Johnson": "Higher risk - less experience with Kubernetes and monitoring tools, which would require mentoring and development time to bring up to speed on full DevOps practices."
+        }
+      },
+      "metadata": {
+        "generated_at": "2025-07-27T05:17:04.811265",
+        "total_candidates": 3,
+        "analysis_type": "hiring_recommendations"
+      }
+    },
+    "summary": {
+      "total_candidates": 3,
+      "top_candidates": [
+        {
+          "rank": 1,
+          "name": "Jane Smith",
+          "overall_score": 92,
+          "skills_score": 95,
+          "experience_score": 90,
+          "education_score": 85,
+          "key_strengths": [
+            "Extensive experience",
+            "Strong technical leadership",
+            "Excellent problem-solving"
+          ],
+          "summary": ""
+        },
+        {
+          "rank": 2,
+          "name": "John Doe",
+          "overall_score": 88,
+          "skills_score": 90,
+          "experience_score": 85,
+          "education_score": 80,
+          "key_strengths": [
+            "Strong cloud experience",
+            "Excellent automation skills",
+            "Proven leadership"
+          ],
+          "summary": ""
+        },
+        {
+          "rank": 3,
+          "name": "Bob Johnson",
+          "overall_score": 75,
+          "skills_score": 70,
+          "experience_score": 80,
+          "education_score": 75,
+          "key_strengths": [
+            "Solid AWS experience",
+            "Good automation skills",
+            "Reliable team player"
+          ],
+          "summary": ""
+        }
+      ],
+      "score_distribution": {
+        "excellent": 1,
+        "good": 2,
+        "average": 0,
+        "below_average": 0
+      },
+      "average_scores": {
+        "overall": 85.0,
+        "skills": 85.0,
+        "experience": 85.0,
+        "education": 80.0
+      },
+      "generated_at": "2025-07-27T05:17:04.811916"
+    },
+    "insights": {
+      "name": "John Doe",
+      "overall_score": 88,
+      "score_breakdown": {},
+      "strengths": [
+        "Strong cloud experience",
+        "Excellent automation skills",
+        "Proven leadership"
+      ],
+      "weaknesses": [
+        "Limited Azure experience",
+        "Could improve documentation skills"
+      ],
+      "recommendations": [],
+      "achievers_rating": {
+        "overall_score": 18,
+        "achievements": {
+          "score": 5,
+          "achievements_list": [
+            "Led migration to Kubernetes",
+            "Reduced deployment time by 70%"
+          ]
+        },
+        "skills": {
+          "score": 8,
+          "skills_list": [
+            "AWS",
+            "Kubernetes",
+            "Docker",
+            "Terraform",
+            "Python",
+            "Bash",
+            "Jenkins",
+            "Prometheus"
+          ]
+        },
+        "responsibilities": {
+          "total_score": 3,
+          "new_jobs_score": 2,
+          "within_job_score": 1
+        },
+        "experience_bonus": {
+          "score": 2,
+          "years_counted": 6
+        },
+        "skills_bonus": {
+          "score": 1,
+          "skills_counted": 8
+        }
+      },
+      "experience_summary": {
+        "full_name": "John Doe",
+        "years_of_experience": "8+ years",
+        "cloud_platforms": "AWS, Azure, GCP",
+        "containerization_orchestration": "Docker, Kubernetes, Helm",
+        "infrastructure_as_code": "Terraform, Ansible",
+        "cicd_tools_pipelines": "Jenkins, GitLab CI, GitHub Actions",
+        "monitoring_logging": "Prometheus, Grafana, ELK Stack",
+        "scripting_programming": "Python, Bash, Go"
+      },
+      "insights": {
+        "score_category": "Good",
+        "key_achievements": [
+          "Led migration to Kubernetes",
+          "Reduced deployment time by 70%"
+        ],
+        "skill_gaps": [
+          "Skill gap analysis requires job requirements"
+        ],
+        "career_progression": "Strong career progression with increasing responsibilities",
+        "recommendation_level": "Recommend"
+      }
+    },
+    "csv_data": "Comparison Category,Candidate 1,Candidate 2,Candidate 3,Notes\r\nCandidate Names,Jane Smith,John Doe,Bob Johnson,\r\nAchiever Scores,22,18,15,\r\n\r\nSkills Comparison\r\ncloud_platforms\r\n  Candidate 1 Skills,\"AWS, GCP\",10 years,,\r\n  Candidate 2 Skills,\"AWS, Azure, GCP\",8 years,,\r\n  Candidate 3 Skills,AWS,5 years,,\r\n  Unique Skills,Azure,,,\r\n\r\ncontainerization_orchestration\r\n  Candidate 1 Skills,\"Docker, Kubernetes, Docker Swarm\",10 years,,\r\n  Candidate 2 Skills,\"Docker, Kubernetes, Helm\",8 years,,\r\n  Candidate 3 Skills,Docker,5 years,,\r\n  Unique Skills,\"Docker Swarm, Helm\",,,\r\n\r\ninfrastructure_as_code\r\n  Candidate 1 Skills,\"Terraform, CloudFormation\",10 years,,\r\n  Candidate 2 Skills,\"Terraform, Ansible\",8 years,,\r\n  Candidate 3 Skills,Terraform,5 years,,\r\n  Unique Skills,\"CloudFormation, Ansible\",,,\r\n\r\ncicd_tools\r\n  Candidate 1 Skills,\"Jenkins, GitLab CI\",10 years,,\r\n  Candidate 2 Skills,\"Jenkins, GitLab CI, GitHub Actions\",8 years,,\r\n  Candidate 3 Skills,Jenkins,5 years,,\r\n  Unique Skills,GitHub Actions,,,\r\n\r\nmonitoring_logging\r\n  Candidate 1 Skills,\"Prometheus, Grafana, Datadog\",10 years,,\r\n  Candidate 2 Skills,\"Prometheus, Grafana, ELK Stack\",8 years,,\r\n  Candidate 3 Skills,CloudWatch,5 years,,\r\n  Unique Skills,\"Datadog, ELK Stack, CloudWatch\",,,\r\n\r\nscripting_programming\r\n  Candidate 1 Skills,\"Python, Go, Bash\",10 years,,\r\n  Candidate 2 Skills,\"Python, Bash\",8 years,,\r\n  Candidate 3 Skills,\"Python, Bash\",5 years,,\r\n  Unique Skills,Go,,,\r\n\r\n"
+  },
+  "test_timestamp": "2024-01-01T00:00:00Z"
+}

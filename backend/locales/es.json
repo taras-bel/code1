@@ -1,0 +1,20 @@
+{
+  "errors": {
+    "invalid_token": "Token inválido.",
+    "unauthorized": "No autorizado.",
+    "user_not_found": "Usuario no encontrado.",
+    "file_too_large": "El archivo es demasiado grande. El tamaño máximo es {max_mb} MB.",
+    "invalid_file_type": "Tipo de archivo no válido. Solo se permiten PDF y DOCX.",
+    "analysis_limit": "Has alcanzado el límite semanal de análisis.",
+    "internal_error": "Error interno del servidor.",
+    "bucket_missing": "¡El bucket de Supabase '{bucket}' no existe!",
+    "upload_failed": "Error al subir el archivo.",
+    "not_found": "No encontrado.",
+    "rate_limited": "Demasiadas solicitudes. Por favor, inténtalo más tarde."
+  },
+  "success": {
+    "file_uploaded": "Archivo subido con éxito.",
+    "analysis_created": "Análisis creado con éxito.",
+    "user_registered": "Usuario registrado con éxito."
+  }
+} 

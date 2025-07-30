@@ -1,0 +1,20 @@
+{
+  "errors": {
+    "invalid_token": "Неверный токен.",
+    "unauthorized": "Нет доступа.",
+    "user_not_found": "Пользователь не найден.",
+    "file_too_large": "Файл слишком большой. Максимальный размер — {max_mb} МБ.",
+    "invalid_file_type": "Недопустимый тип файла. Разрешены только PDF и DOCX.",
+    "analysis_limit": "Вы достигли недельного лимита анализов.",
+    "internal_error": "Внутренняя ошибка сервера.",
+    "bucket_missing": "Bucket Supabase '{bucket}' не существует!",
+    "upload_failed": "Ошибка загрузки файла.",
+    "not_found": "Не найдено.",
+    "rate_limited": "Слишком много запросов. Попробуйте позже."
+  },
+  "success": {
+    "file_uploaded": "Файл успешно загружен.",
+    "analysis_created": "Анализ успешно создан.",
+    "user_registered": "Пользователь успешно зарегистрирован."
+  }
+} 

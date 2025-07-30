@@ -1,0 +1,15 @@
+# Core dependencies (no AI dependencies)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# File processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+reportlab==4.0.7
+
+# Note: This version works without any AI dependencies
+# The system will use fallback analysis when AI is not available 

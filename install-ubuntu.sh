@@ -123,6 +123,7 @@ fi
 
 # Install Python dependencies
 print_status "Installing Python dependencies..."
+
 # Install cryptography through apt (system package)
 apt install -y python3-cryptography
 
@@ -136,7 +137,15 @@ fi
 print_status "Installing additional Python packages in virtual environment..."
 source venv/bin/activate
 pip install --upgrade pip
-pip install cryptography  # Install in venv as backup
+
+# Install additional packages that might be needed
+if [ -f "requirements.txt" ]; then
+    print_status "Installing requirements from requirements.txt..."
+    pip install -r requirements.txt
+else
+    print_status "Installing common Python packages..."
+    pip install fastapi uvicorn celery redis psycopg2-binary sqlalchemy
+fi
 
 print_success "Python dependencies installed"
 

@@ -1,0 +1,69 @@
+/*
+==============================================================================
+STYLESHEET: main.css
+==============================================================================
+PURPOSE: 
+Global CSS file that imports external fonts, sets up Tailwind CSS directives,
+and defines custom component classes and base styles for the application.
+Provides consistent styling foundation across all components.
+
+OPERATING PRINCIPLE:
+- Imports Google Fonts for typography consistency
+- Uses Tailwind's @layer directive for proper CSS cascade
+- Defines reusable component classes for buttons and layout
+- Sets global behavior like smooth scrolling
+==============================================================================
+*/
+
+/* =================================================================== */
+/* SECTION 1: EXTERNAL FONT IMPORTS                                  */
+/* Purpose: Import Google Fonts for consistent typography            */
+/* =================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* =================================================================== */
+/* SECTION 2: TAILWIND CSS DIRECTIVES                                */
+/* Purpose: Include Tailwind's base, components, and utilities       */
+/* =================================================================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =================================================================== */
+/* SECTION 3: GLOBAL HTML BEHAVIOR                                   */
+/* Purpose: Set global browser behavior and smooth interactions      */
+/* =================================================================== */
+html {
+  scroll-behavior: smooth;  /* Smooth scrolling for anchor links */
+}
+
+/* =================================================================== */
+/* SECTION 4: BASE LAYER STYLES                                      */
+/* Purpose: Override default browser styles with custom base styles  */
+/* =================================================================== */
+@layer base {
+  body {
+    @apply font-sans antialiased;  /* Use Inter font family with anti-aliasing */
+  }
+}
+
+/* =================================================================== */
+/* SECTION 5: COMPONENT LAYER STYLES                                 */
+/* Purpose: Define reusable component classes for consistency        */
+/* =================================================================== */
+@layer components {
+  /* Primary button style for main CTAs */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out;
+  }
+  
+  /* Secondary button style for alternative actions */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out;
+  }
+  
+  /* Custom container with consistent max-width and padding */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+} 

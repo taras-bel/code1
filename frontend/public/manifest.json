@@ -1,0 +1,16 @@
+{
+  "name": "NoaMetrics",
+  "short_name": "NoaMetrics",
+  "description": "Stop Guessing. Hire the Real Talent.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+} 

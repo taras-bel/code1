@@ -44,7 +44,9 @@ CORS_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://127.0.0.1:3001",
     "https://localhost",
-    "https://127.0.0.1"
+    "https://127.0.0.1",
+    "https://localhost:3000",
+    "https://127.0.0.1:3000"
 ]
 
 # Добавляем production домены из переменных окружения
@@ -57,10 +59,28 @@ DIGITALOCEAN_DOMAINS = os.getenv("DIGITALOCEAN_DOMAINS", "").split(",")
 if DIGITALOCEAN_DOMAINS and DIGITALOCEAN_DOMAINS[0]:
     CORS_ORIGINS.extend([domain.strip() for domain in DIGITALOCEAN_DOMAINS if domain.strip()])
 
+# Добавляем IP адреса для внешнего доступа
+EXTERNAL_IPS = os.getenv("EXTERNAL_IPS", "").split(",")
+if EXTERNAL_IPS and EXTERNAL_IPS[0]:
+    for ip in EXTERNAL_IPS:
+        ip = ip.strip()
+        if ip:
+            CORS_ORIGINS.extend([
+                f"http://{ip}",
+                f"https://{ip}",
+                f"http://{ip}:80",
+                f"https://{ip}:443",
+                f"http://{ip}:3000",
+                f"https://{ip}:3000"
+            ])
+
 # Добавляем общие домены для разработки
 CORS_ORIGINS.extend([
     "http://localhost:3000",
     "https://localhost:3000",
     "http://127.0.0.1:3000",
     "https://127.0.0.1:3000"
-]) 
+])
+
+# Удаляем дубликаты
+CORS_ORIGINS = list(set(CORS_ORIGINS)) 
